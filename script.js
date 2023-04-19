@@ -140,7 +140,7 @@ function validateDob() {
     
    
 
-    if (Math.floor(age) >= 0 && Math.floor(age) <= 18) {
+    if (Math.floor(age) >= 18) {
 
       dobError.innerHTML = 'valid';
       return true;
